@@ -21,6 +21,6 @@ def Setup(browser):
         driver = webdriver.Firefox()
         driver.maximize_window()
     else:
-        driver = webdriver.Safari()
+        driver = webdriver.Chrome()
     driver.get("https://the-internet.herokuapp.com/")
     return driver
